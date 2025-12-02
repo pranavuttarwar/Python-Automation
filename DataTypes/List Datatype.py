@@ -102,10 +102,10 @@ p.sort()   #it will sort in ascending
 print("After sorting")
 print(p)
 
-print("Reverse order the lisr")
+print("Reverse order the list")
 p.reverse()
 print(p)
 
-print("Show the occurance of data in the list")
+print("Show the occurrence of data in the list")
 
 print(p.count(12))
