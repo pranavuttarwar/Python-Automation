@@ -28,6 +28,25 @@ dict1.popitem()
 print(dict1)
 
 print("check key exist in the dictionary")
-print('Papa' in dict1)
+print('Papa' in dict1) #true and false output
 
+
+print("----All keys only  in the dictionary----")
+allkeys=dict1.keys()
+
+for i in allkeys:
+    print(i)
+
+print("-----All Values only in the dictionary-----")
+
+allValues = dict1.values()
+
+for i in allValues:
+    print(i)
+
+print("-----Get all Key - Values pairs in the dictionary-----")
+allkeyValue=dict1.items()
+
+for key,value in allkeyValue:
+    print(key, ",", value)
 
