@@ -47,6 +47,6 @@ for i in range(1,6):
 
 #square of number from 1 to 15-> Assignment
 #Pranav Logic
-for i in range(1,17):
+for i in range(1,16):
     n=i*i
     print(n, end=" ")

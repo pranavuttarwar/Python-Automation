@@ -22,7 +22,7 @@ print(type(ls))
 print(ls)
 
 #print size/length of list
-print(len(ls))
+print("lenght:", len(ls))
 
 #print/access single data in the list
 print(ls[0])
@@ -76,9 +76,6 @@ for i in range(0,len(ls)):
     print(ls[i])
 
 for i in range(0,2):
-    print(ls[i])
-
-for i in range(7,0):
     print(ls[i])
 
 print("print list data in reverse order")
