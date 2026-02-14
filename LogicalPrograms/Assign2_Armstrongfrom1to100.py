@@ -6,4 +6,4 @@ for num in range(1,1001):
         sum=sum+rem*rem*rem
         org=org//10
     if sum==num:
-        print("This Number isarmstrong from 1 to 100: ",num)
+        print("This Number is armstrong from 1 to 100: ",num)
